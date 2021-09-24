@@ -1,6 +1,12 @@
-0x0A : skhd --key escape # §
-fn - escape : skhd --key 0x32 # `
-fn + shift - escape : skhd --key "shift - 0x32" # ~
+# 0x0A -> §
+# 0x32 -> `
+# shift - 0x32 -> ~
+# 0x1B -> -
+# 0x18 -> =
+
+0x0A : skhd --key escape
+fn - 0x0A : skhd --key 0x32
+fn + shift - 0x0A : skhd --key "shift - 0x32"
 
 fn - k : skhd --key up
 fn - j : skhd --key down
