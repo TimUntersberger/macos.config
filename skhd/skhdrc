@@ -1,0 +1,28 @@
+0x0A : skhd --key escape # §
+fn - escape : skhd --key 0x32 # `
+fn + shift - escape : skhd --key "shift - 0x32" # ~
+
+fn - k : skhd --key up
+fn - j : skhd --key down
+fn - h : skhd --key left
+fn - l : skhd --key right
+
+fn - space : skhd --key "fn - F8"
+fn - s : skhd --key "fn - F9"
+fn - a : skhd --key "fn - F7"
+fn - d : skhd --key "fn - F10"
+fn - f : skhd --key "fn - F11"
+fn - g : skhd --key "fn - F12"
+
+fn - 1 : skhd --key F1
+fn - 2 : skhd --key F2
+fn - 3 : skhd --key F3
+fn - 4 : skhd --key F4
+fn - 5 : skhd --key F5
+fn - 6 : skhd --key F6
+fn - 7 : skhd --key F7
+fn - 8 : skhd --key F8
+fn - 9 : skhd --key F9
+fn - 0 : skhd --key F10
+fn - 0x1B : skhd --key F11 # -
+fn - 0x18 : skhd --key F12 # =
